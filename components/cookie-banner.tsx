@@ -32,9 +32,6 @@ export function CookieBanner() {
       <div className="max-w-7xl mx-auto px-4 py-5">
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
           <div className="flex items-start gap-4 flex-1">
-            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-              <Cookie className="h-6 w-6 text-primary" />
-            </div>
             <div className="flex-1">
               <h3 className="font-bold text-foreground mb-1">Kolačići i privatnost</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
