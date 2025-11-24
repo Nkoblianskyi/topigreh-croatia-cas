@@ -5,7 +5,7 @@ export function RankingsSection() {
   return (
     <section id="rankings" className="px-4 py-12 bg-muted/30">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 hidden md:block">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="text-foreground">Najnoviji </span>
             <span className="text-primary">Rejting Kasina</span>

@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image"
 
 export function HeroSection() {
   const currentDate = new Date()
@@ -47,7 +48,10 @@ export function HeroSection() {
             </p>
 
             <div className="flex flex-wrap gap-4 items-center pt-2 text-xs text-blue-100">
-              <span>✓ Licencirana kasina</span>
+              <div className="flex flex-row items-center justify-center gap-4">
+                <Image src="/flag.png" alt="Licencirana kasina" width={16} height={16} />
+                <span> Licencirana kasina</span>
+              </div>
               <span>•</span>
               <span>✓ Odgovorna igra</span>
               <span>•</span>

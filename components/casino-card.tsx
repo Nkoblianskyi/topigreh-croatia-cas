@@ -123,16 +123,16 @@ export function CasinoCard({ casino, isTopChoice = false, rank }: CasinoCardProp
           {/* Mobile Layout */}
           <div className="md:hidden space-y-4">
             <div className="flex gap-3 items-start">
-              <div className="w-24 h-20 flex-shrink-0 bg-white rounded-lg p-2 border border-border">
+              <div className="w-36 h-24 flex-shrink-0 bg-white rounded-lg p-2 border border-border">
                 <Image
-                  width={100}
-                  height={80}
+                  width={140}
+                  height={90}
                   src={casino.logo || "/placeholder.svg"}
                   alt={`${casino.name}`}
                   className="w-full h-full object-contain"
                 />
               </div>
-              <div className="flex-1 bg-gradient-to-r from-primary/10 to-accent/10 rounded-lg p-2.5 border border-primary/20">
+              <div className="flex items-center flex-col justify-center text-center bg-gradient-to-r from-primary/10 to-accent/10 rounded-lg p-2.5 border border-primary/20">
                 <p className="text-xs text-muted-foreground mb-0.5">Bonus dobrodošlice</p>
                 <p className="text-sm font-bold text-foreground leading-tight">{casino.bonus}</p>
               </div>
