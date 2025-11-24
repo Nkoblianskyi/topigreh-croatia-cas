@@ -201,27 +201,6 @@ export function ResponsibleGamingSection() {
               </div>
 
               <div className="bg-white/10 rounded-lg p-3 md:p-5">
-                <h4 className="font-bold text-base md:text-xl mb-2 md:mb-3 text-white">
-                  Poliklinika za zaštitu djece i mladih Zagreb
-                </h4>
-                <p className="text-sm md:text-base text-blue-100 mb-2 leading-relaxed">
-                  Specijalizirani centar koji nudi terapijske programe za liječenje ovisnosti o kockanju. Besplatne
-                  usluge dostupne su svim građanima Hrvatske.
-                </p>
-                <p className="text-xs md:text-sm text-blue-200">
-                  Web:{" "}
-                  <a
-                    href="https://www.poliklinika-djeca.hr"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-accent hover:text-white transition-colors underline"
-                  >
-                    www.poliklinika-djeca.hr
-                  </a>
-                </p>
-              </div>
-
-              <div className="bg-white/10 rounded-lg p-3 md:p-5">
                 <h4 className="font-bold text-base md:text-xl mb-2 md:mb-3 text-white">Anonimni kockari</h4>
                 <p className="text-sm md:text-base text-blue-100 mb-2 leading-relaxed">
                   Međunarodna organizacija koja organizira grupe podrške za osobe s problemima kockanja. Sastanci su
