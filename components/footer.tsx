@@ -38,29 +38,6 @@ export function Footer() {
               Vaš pouzdani vodič kroz svijet online kasina u Hrvatskoj. Stručne recenzije, objektivne ocjene.
             </p>
 
-            {/* Social Links */}
-            <div className="flex gap-3">
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-white/10 hover:bg-primary flex items-center justify-center transition-colors"
-              >
-                <Facebook className="h-4 w-4" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-white/10 hover:bg-primary flex items-center justify-center transition-colors"
-              >
-                <Twitter className="h-4 w-4" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-white/10 hover:bg-primary flex items-center justify-center transition-colors"
-              >
-                <Instagram className="h-4 w-4" />
-              </a>
-            </div>
-          </div>
-
           {/* Quick Links */}
           <div>
             <h3 className="text-lg font-bold mb-6 flex items-center gap-2">
