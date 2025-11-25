@@ -179,7 +179,7 @@ export function Footer() {
               className="bg-white/10 hover:bg-white/20 p-4 rounded-lg transition-all"
             >
               <Image
-                src="/gamble-aware.webp"
+                src="/gamble.webp"
                 alt="GambleAware"
                 width={90}
                 height={40}
