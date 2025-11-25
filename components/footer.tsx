@@ -200,6 +200,20 @@ export function Footer() {
                 className="h-10 w-auto object-contain opacity-80 hover:opacity-100"
               />
             </a>
+            <a
+              href="https://www.gamstop.co.uk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white/10 hover:bg-white/20 p-4 rounded-lg transition-all"
+            >
+              <Image
+                src="/gamstop.svg"
+                alt="GamStop"
+                width={100}
+                height={50}
+                className="h-10 w-auto object-contain opacity-80 hover:opacity-100"
+              />
+            </a>
           </div>
 
           <div className="mt-8 bg-white/5 border border-white/10 rounded-lg p-6 max-w-4xl mx-auto">
