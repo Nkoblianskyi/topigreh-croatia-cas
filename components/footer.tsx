@@ -30,13 +30,13 @@ export function Footer() {
                     <span className="text-accent">TopIgre</span>
                     <span className="text-white">HR</span>
                   </span>
-                  <span className="text-xs text-blue-200">.com</span>
                 </div>
               </div>
             </Link>
             <p className="text-sm text-blue-100 leading-relaxed mb-6">
               Vaš pouzdani vodič kroz svijet online kasina u Hrvatskoj. Stručne recenzije, objektivne ocjene.
             </p>
+          </div>
 
           {/* Quick Links */}
           <div>
@@ -133,7 +133,7 @@ export function Footer() {
                 <span>100% Sigurno</span>
               </div>
               <div className="flex items-center gap-2 text-sm text-blue-100">
-                <Image src="/flag.png" alt="Verified" width={16} height={16} className="h-4 w-4" />
+                <Award className="h-4 w-4 text-accent" />
                 <span>Licencirani operatori</span>
               </div>
             </div>
@@ -144,75 +144,60 @@ export function Footer() {
         <div className="border-t border-white/20 pt-10 mb-10">
           <h3 className="text-lg font-bold mb-6 text-center">Odgovorno kockanje</h3>
           <div className="flex flex-wrap justify-center gap-6 items-center">
-                        <a
+            <a
               href="https://www.hupis.hr/klok"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#1a1a1a] backdrop-blur-sm p-3 rounded-lg hover:bg-[#1a1a1a]/80 transition-all duration-300 flex items-center justify-center border border-[#d4af37]/20 hover:border-[#d4af37]/40 group"
+              className="bg-white/10 hover:bg-white/20 p-4 rounded-lg transition-all"
             >
               <Image
                 src="/hupis.png"
                 alt="HUPIS"
-                width={120}
-                height={60}
-                className="h-12 w-auto object-contain opacity-70 group-hover:opacity-100 transition-opacity"
-              />
-            </a>
-
-            <a
-              href="https://www.gamstop.co.uk/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-[#1a1a1a] backdrop-blur-sm p-3 rounded-lg hover:bg-[#1a1a1a]/80 transition-all duration-300 flex items-center justify-center border border-[#d4af37]/20 hover:border-[#d4af37]/40 group"
-            >
-              <Image
-                src="/gamstop.svg"
-                alt="GamStop"
-                width={120}
-                height={60}
-                className="h-12 w-auto object-contain opacity-70 group-hover:opacity-100 transition-opacity"
+                width={100}
+                height={50}
+                className="h-10 w-auto object-contain opacity-80 hover:opacity-100"
               />
             </a>
             <a
-              href="https://www.gamcare.org.uk/"
+              href="https://www.pbsvi.hr"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#1a1a1a] backdrop-blur-sm p-3 rounded-lg hover:bg-[#1a1a1a]/80 transition-all duration-300 flex items-center justify-center border border-[#d4af37]/20 hover:border-[#d4af37]/40 group"
-            >
-              <Image
-                src="/gamecare-new.svg"
-                alt="GamCare"
-                width={120}
-                height={60}
-                className="h-12 w-auto object-contain opacity-70 group-hover:opacity-100 transition-opacity"
-              />
-            </a>
-            <a
-              href="https://www.pbsvi.hr/strucni-programi-i-klub/kocka-terapijsko-rehabilitacijski-program-za-ovisnost-o-kockanju/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-[#1a1a1a] backdrop-blur-sm p-3 rounded-lg hover:bg-[#1a1a1a]/80 transition-all duration-300 flex items-center justify-center border border-[#d4af37]/20 hover:border-[#d4af37]/40 group"
+              className="bg-white/10 hover:bg-white/20 p-4 rounded-lg transition-all"
             >
               <Image
                 src="/pbsvi.svg"
                 alt="PBSVI"
-                width={100}
+                width={90}
                 height={40}
-                className="h-10 w-auto object-contain opacity-70 group-hover:opacity-100 transition-opacity"
+                className="h-8 w-auto object-contain opacity-80 hover:opacity-100"
               />
             </a>
-                        <a
+            <a
               href="https://www.gambleaware.org"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#1a1a1a] backdrop-blur-sm p-3 rounded-lg hover:bg-[#1a1a1a]/80 transition-all duration-300 flex items-center justify-center border border-[#d4af37]/20 hover:border-[#d4af37]/40 group"
+              className="bg-white/10 hover:bg-white/20 p-4 rounded-lg transition-all"
             >
               <Image
-                src="/gamble.webp"
+                src="/gamble-aware.webp"
                 alt="GambleAware"
-                width={100}
+                width={90}
                 height={40}
-                className="h-10 w-auto object-contain opacity-70 group-hover:opacity-100 transition-opacity"
+                className="h-8 w-auto object-contain opacity-80 hover:opacity-100"
+              />
+            </a>
+            <a
+              href="https://www.gamcare.org.uk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white/10 hover:bg-white/20 p-4 rounded-lg transition-all"
+            >
+              <Image
+                src="/gamecare-new.svg"
+                alt="GamCare"
+                width={100}
+                height={50}
+                className="h-10 w-auto object-contain opacity-80 hover:opacity-100"
               />
             </a>
           </div>
